@@ -1,0 +1,73 @@
+.home {
+  background: rgb(143, 130, 40);
+  color: white;
+  height: 685px;
+  width: vw;
+  display: flex;
+  margin: 25px 25px 0px 25px;
+  border-radius: 4px 4px 0px 0px;
+}
+.home h1 {
+  margin: 50px 150px 0px 100px;
+  font-family: milka, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 250px;
+  color: rgb(243, 177, 161);
+}
+.home p {
+  font-family: Futura PT Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 450px 80px 150px 0px;
+}
+.home-nav {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Futura PT Light;
+  font-size: 24px;
+  margin: 15px 25px;
+}
+
+a:link,
+a:visited {
+  color: rgb(218, 103, 63);
+  padding: 10px 20px;
+  margin: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(240, 240, 240);
+  color: rgb(218, 103, 63);
+}
+
+/* unvisited link
+a:link {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+/* a:visited {
+    color: green;
+    text-decoration: none;
+  } */
+
+/* mouse over link */
+/* a:hover {
+    color: hotpink;
+    text-decoration: none;
+  } */
+
+/* selected link */
+/* a:active {
+    color: blue;
+    text-decoration: none;
+  } */
