@@ -1,5 +1,5 @@
 .home {
-  background: rgb(143, 130, 40);
+  background: rgb(243, 177, 161);
   color: white;
   height: 685px;
   width: vw;
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 250px;
-  color: rgb(243, 177, 161);
+  color: rgb(143, 130, 40);
 }
 .home p {
   font-family: Futura PT Light;
