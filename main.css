@@ -1,50 +1,133 @@
-.home {
-  background: rgb(243, 177, 161);
-  color: white;
-  height: 685px;
-  width: vw;
-  display: flex;
-  margin: 25px 25px 0px 25px;
-  border-radius: 4px 4px 0px 0px;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+
+body {
+  margin:0px;
+  padding:0px;
+  background:#EDFDFC;
 }
-.home h1 {
-  margin: 50px 150px 0px 100px;
-  font-family: milka, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 250px;
-  color: rgb(143, 130, 40);
-}
-.home p {
-  font-family: Futura PT Light;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  margin: 450px 80px 150px 0px;
-}
+
 .home-nav {
   display: flex;
   justify-content: flex-end;
-  font-family: Futura PT Light;
-  font-size: 24px;
-  margin: 15px 25px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #31857E;  
 }
 
-a:link,
-a:visited {
-  color: rgb(218, 103, 63);
-  padding: 10px 20px;
-  margin: 0px 15px;
-  text-align: center;
+.vl {
+    border-left: 1px solid #31857E;
+    height: 5950px;
+    left: 8%;
+    position: absolute;
+}
+
+a:link {
   text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
-  font-weight: bold;
+  color: #31857E;
+  margin: 0px 25px;
+  padding: 20px 20px;
+  letter-spacing: 0.15em;
+}
+a:visited {
+  text-decoration: none;
+  color: #31857E;
 }
 
-a:hover,
-a:active {
-  background-color: rgb(240, 240, 240);
-  color: rgb(218, 103, 63);
+a:hover {
+  color: #4CBDB4;
+  /* transition-duration: .3s; */
+  font-style: italic;
 }
+a:active {
+  text-decoration: none;
+  color: #4CBDB4;}
+
+
+h1 {
+  letter-spacing: 0.05em;
+  margin: 275px 450px 0px 200px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 90px;
+  color: #31857E;
+}
+.top {
+  color:#31857E;
+  font-size: 70px;
+  font-style: normal !important;
+  top: 80%;
+  margin-top: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: sticky;
+}
+h2 {
+  letter-spacing: 0.05em;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 70px;
+  color:#31857E;
+  margin: 0px 0px 30px 0px;
+}
+h3 {
+  letter-spacing: 0.05em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  font-weight: 300;
+  color:#31857E;
+  font-style: italic;
+  margin: 40px 0px 0px 200px;
+}
+.author {
+  margin: 100px 0px 0px 500px;}
+.work-section {
+  margin: 500px 0px 0px 200px;
+}
+.ideas-section {
+  margin: 1000px 0px 0px 200px;
+}
+.skills-section {
+  margin: 1000px 0px 0px 200px; 
+}
+.contact-section {
+  margin: 1000px 0px 0px 200px; 
+}
+.email {
+  letter-spacing: 0.05em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  font-weight: 300;
+  color:#31857E;
+  margin: 40px 0px 0px 160px;
+}
+.copyright {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 500px 0px 60px 0px;
+  color:#31857E;
+}
+
+  
+ 
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
 

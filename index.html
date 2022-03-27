@@ -5,43 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Home</title>
+    <title>BobbiTeel</title>
+    <script>
+        function todayDate(){
+           var d = new Date();
+           var n = d.getFullYear() + "  ";
+           return document.getElementById("date").innerHTML = n;
+         }
+      </script>
 </head>
 
-<body>
-    <section class="home">
-        <h1>bk</h1>
-        <p></p> 
-    </section>  
-    <!-- <nav class="home-nav">
-        <a href="about.html" >about</a>
-        <a href="work.html">work</a>
-        <a href="contact.html">contact</a>
-    </nav> -->
+<body onload=todayDate()>
+    <nav class="home-nav">
+        <a href="#work" >Work</a>
+        <a href="#ideas" >Ideas</a>
+        <a href="#skills" >Skills</a>
+        <a href="#contact" >Contact</a>
+    </nav>
+
+    <div class="vl"></div>
+        <h1>Bobbi Teel is a web
+            developer specializing
+            in UX/UI, and Wordpress
+            website design.
+        </h1>  
+    <div class="top"><a href="#top">&#8593;</a></div>
+
+    <div class="work-section">
+        <h2 id="work">Work</h2>
+    </div>
+    <hr>
+        <h3>Completed Projects</h3>
+        <div class="author"><img src="images/authorwebsite1.png" ></div>
+    <div class="ideas-section">
+        <h2 id="ideas">Ideas</h2>
+    </div>
+    <hr>
+        <h3>Website Templates</h3>
+
+    <div class="skills-section">
+        <h2 id="skills">Skills</h2>
+    </div>
+    <hr>
+        <h3>Certifications</h3>
+
+    <div class="contact-section">
+        <h2 id="contact">Contact</h2>
+    </div>
+    <hr>
+    <div class="email"><a href="mailto:bobbikteel@gmail.com">Email Me</a></div>
+
     
-    <section class="about" style="font-family:futura; background:rgb(240, 240, 240); color:rgb(218, 103, 63); padding-top: 50px; height:700px; width:100%";>
-        <nav>
-            <a href="index.html" style="font-family:milka; font-size:30px;">bk</a>
-            <a href="about.html" >about</a>
-            <a href="work.html">work</a>
-            <a href="contact.html">contact</a>
-        </nav>
-    </section>
-    <section class="work" style="font-family:futura; background:rgb(240, 240, 240); color:rgb(240, 145, 140); padding-top: 50px; height:700px; width:100%";>
-        <nav>
-            <a href="index.html" style="font-family:milka; font-size:30px;">bk</a>
-            <a href="about.html" >about</a>
-            <a href="work.html">work</a>
-            <a href="contact.html">contact</a>
-        </nav>
-    </section>
-    <footer class="contact" style="font-family:futura; background:rgb(240, 240, 240); color:rgb(143, 130, 40); padding-top: 50px; height:700px; width:100%";>
-        <nav>
-            <a href="index.html" style="font-family:milka; font-size:30px;">bk</a>
-            <a href="about.html" >about</a>
-            <a href="work.html">work</a>
-            <a href="contact.html">contact</a>
-        </nav>
+    <br><br>
+    <footer>
+        <p class="copyright">Copyright &copy; 2022 bkteel.com</p>
     </footer>
+    
 </body>
 </html>
