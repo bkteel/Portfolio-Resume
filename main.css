@@ -14,26 +14,26 @@ body {
   font-size: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #31857E;  
+  border-bottom: 1px solid #31875e;  
 }
 
 .vl {
-    border-left: 1px solid #31857E;
-    height: 5950px;
+    border-left: 1px solid #31875e;
+    height: 8950px;
     left: 8%;
     position: absolute;
 }
 
 a:link {
   text-decoration: none;
-  color: #31857E;
+  color: #31875e;
   margin: 0px 25px;
   padding: 20px 20px;
   letter-spacing: 0.15em;
 }
 a:visited {
   text-decoration: none;
-  color: #31857E;
+  color: #31875e;
 }
 
 a:hover {
@@ -52,10 +52,10 @@ h1 {
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
   font-size: 90px;
-  color: #31857E;
+  color: #31875e;
 }
 .top {
-  color:#31857E;
+  color: #31875e;
   font-size: 70px;
   font-style: normal !important;
   top: 80%;
@@ -70,7 +70,7 @@ h2 {
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
   font-size: 70px;
-  color:#31857E;
+  color: #31875e;
   margin: 0px 0px 30px 0px;
 }
 h3 {
@@ -78,37 +78,47 @@ h3 {
   font-family: 'Inconsolata', monospace;
   font-size: 40px;
   font-weight: 300;
-  color:#31857E;
+  color: #31875e;
   font-style: italic;
   margin: 40px 0px 0px 200px;
 }
-.author {
-  margin: 100px 0px 0px 500px;}
+
+.canva {
+  margin: 100px 0px 0px 300px;}
+.canva2 {
+  margin: 150px 0px 0px 600px;
+}
+.canva3 {
+  margin: 150px 0px 0px 450px;
+}
+.skillspage {
+  margin: 100px 0px 0px 200px;
+}
 .work-section {
   margin: 500px 0px 0px 200px;
 }
 .ideas-section {
-  margin: 1000px 0px 0px 200px;
+  margin: 500px 0px 0px 200px;
 }
 .skills-section {
-  margin: 1000px 0px 0px 200px; 
+  margin: 500px 0px 0px 200px; 
 }
 .contact-section {
-  margin: 1000px 0px 0px 200px; 
+  margin: 0px 0px 0px 200px; 
 }
 .email {
   letter-spacing: 0.05em;
   font-family: 'Inconsolata', monospace;
   font-size: 40px;
   font-weight: 300;
-  color:#31857E;
+  color: #31875e;
   margin: 40px 0px 0px 160px;
 }
 .copyright {
   font-family: sans-serif;
   text-align: center;
   margin: 500px 0px 60px 0px;
-  color:#31857E;
+  color: #31875e;
 }
 
   
