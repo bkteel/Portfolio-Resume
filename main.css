@@ -23,6 +23,7 @@ body {
     position: absolute;
 }
 
+
 a:link {
   text-decoration: none;
   color: #31875e;
@@ -50,7 +51,8 @@ h1 {
   font-size: 90px;
   color: #31875e;
 }
-#up {
+
+.top {
   font-style: normal !important;
   color: #31875e;
   font-size: 70px;
@@ -61,6 +63,7 @@ h1 {
   justify-content: flex-end;
   position: sticky;
 }
+
 h2 {
   letter-spacing: 0.05em;
   font-family: 'Inconsolata', monospace;
@@ -80,13 +83,15 @@ h3 {
 }
 
 .canva {
-  margin: 75px 0px 0px 200px;}
+  margin: 75px 0px 0px 200px;
+}
 .canva2 {
   margin: 50px 0px 0px 625px;
 }
 .canva3 {
   margin: 50px 0px 0px 200px;
 }
+
 .skillspage {
   margin: 100px 0px 0px 200px;
 }
