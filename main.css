@@ -16,10 +16,9 @@ body {
   padding-bottom: 25px;
   border-bottom: 1px solid #31875e;  
 }
-
 .vl {
     border-left: 1px solid #31875e;
-    height: 8950px;
+    height: 9950px;
     left: 8%;
     position: absolute;
 }
@@ -35,17 +34,14 @@ a:visited {
   text-decoration: none;
   color: #31875e;
 }
-
 a:hover {
   color: #4CBDB4;
-  /* transition-duration: .3s; */
   font-style: italic;
 }
 a:active {
   text-decoration: none;
-  color: #4CBDB4;}
-
-
+  color: #4CBDB4;
+}
 h1 {
   letter-spacing: 0.05em;
   margin: 275px 450px 0px 200px;
@@ -54,10 +50,10 @@ h1 {
   font-size: 90px;
   color: #31875e;
 }
-.top {
+#up {
+  font-style: normal !important;
   color: #31875e;
   font-size: 70px;
-  font-style: normal !important;
   top: 80%;
   margin-top: 220px;
   display: flex;
@@ -84,12 +80,12 @@ h3 {
 }
 
 .canva {
-  margin: 100px 0px 0px 300px;}
+  margin: 75px 0px 0px 200px;}
 .canva2 {
-  margin: 150px 0px 0px 600px;
+  margin: 50px 0px 0px 625px;
 }
 .canva3 {
-  margin: 150px 0px 0px 450px;
+  margin: 50px 0px 0px 200px;
 }
 .skillspage {
   margin: 100px 0px 0px 200px;
