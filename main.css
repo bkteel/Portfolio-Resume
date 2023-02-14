@@ -1,128 +1,277 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Lato:wght@300;400;700;900&display=swap');
 
 body {
   margin:0px;
   padding:0px;
-  background:#EDFDFC;
+  background:#f5f8f7;
 }
 
-.home-nav {
+#navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #31875e;  
-}
-.vl {
-    border-left: 1px solid #31875e;
-    height: 9950px;
-    left: 8%;
-    position: absolute;
+  justify-content: center;
+  background:#f5f8f7;
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  /* font-weight: lighter; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: ls;
 }
 
+#navbar a:link {
+  text-decoration: none;
+  color: black;
+  margin: 0px 25px;
+  padding: 20px 20px;
+  letter-spacing: 0.15em; 
+}
 
 a:link {
   text-decoration: none;
-  color: #31875e;
-  margin: 0px 25px;
-  padding: 20px 20px;
+  color: black;
   letter-spacing: 0.15em;
 }
+
 a:visited {
   text-decoration: none;
-  color: #31875e;
-}
-a:hover {
-  color: #4CBDB4;
-  font-style: italic;
-}
-a:active {
-  text-decoration: none;
-  color: #4CBDB4;
-}
-h1 {
-  letter-spacing: 0.05em;
-  margin: 275px 450px 0px 200px;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 90px;
-  color: #31875e;
+  color: black;
 }
 
-.top {
-  font-style: normal !important;
-  color: #31875e;
-  font-size: 70px;
-  top: 80%;
-  margin-top: 220px;
+a:hover {
+  color: #E75737;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  letter-spacing: 0.05em;
+  margin: 216px 100px 0px 384px;
+  padding: 150px 0px 0px 0px;
+  font-family: 'Calistoga', cursive;
+  font-size: 50px;
+  color:black;
+  float: left;
+  }
+
+.profile {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  position: sticky;
+  padding: 80px 0px 0px 0px;
+ }
+
+.hero p {
+  margin: 20px 200px 0px 384px;  
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  float: left;
+  line-height: 45px;
 }
+
+#navbar .top {
+  font-family: 'Calistoga', cursive;
+  color: black;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.container-1 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#work {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 140px;
+}
+
+.container-1-flex {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px; 
+}
+
+.container-1-text {
+  padding-top: 20px;
+}
+
+.container-1 .container-1-flex .container-1-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin-right: 20px;
+  padding-top: 30px;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  color: #5e5e5e;
+
+}
+
+.container-flex-tab {
+  display: flex;
+  padding: 20px 20px 20px 0px;
+}
+
+.font5 {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding: 5px 15px;
+  margin: 0px 10px 0px 0px;
+  font-weight: lighter;
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+}
+
+.button-1 {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.martys {
+  width: 670px;
+  height: 378px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+} 
 
 h2 {
   letter-spacing: 0.05em;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 70px;
-  color: #31875e;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
   margin: 0px 0px 30px 0px;
+  font-weight: 300;
 }
+
 h3 {
-  letter-spacing: 0.05em;
-  font-family: 'Inconsolata', monospace;
-  font-size: 40px;
-  font-weight: 300;
-  color: #31875e;
-  font-style: italic;
-  margin: 40px 0px 0px 200px;
+  padding-top: 20px;
+  line-height: 0.05em;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
 }
 
-.canva {
-  margin: 75px 0px 0px 200px;
-}
-.canva2 {
-  margin: 50px 0px 0px 625px;
-}
-.canva3 {
-  margin: 50px 0px 0px 200px;
-}
-
-.skillspage {
-  margin: 100px 0px 0px 200px;
-}
-.work-section {
-  margin: 500px 0px 0px 200px;
-}
-.ideas-section {
-  margin: 500px 0px 0px 200px;
-}
-.skills-section {
-  margin: 500px 0px 0px 200px; 
-}
-.contact-section {
-  margin: 0px 0px 0px 200px; 
-}
-.email {
-  letter-spacing: 0.05em;
-  font-family: 'Inconsolata', monospace;
-  font-size: 40px;
-  font-weight: 300;
-  color: #31875e;
-  margin: 40px 0px 0px 160px;
-}
-.copyright {
-  font-family: sans-serif;
+#contact{
   text-align: center;
-  margin: 500px 0px 60px 0px;
-  color: #31875e;
+  padding-top: 200px;
 }
 
-  
+form { 
+  max-width:450px; 
+  margin:50px auto; 
+}
+
+.feedback-input {
+  color:black;
+  font-family: 'Lato', sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #2f89ab;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { 
+  border:2px solid #359bc0; 
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  background:#2f89ab;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+}
+[type="submit"]:hover { background:#359bc0; }
+
+#results {
+  background-color: pink;
+}
+
+.banner-martys {
+  height: 580px;
+  width: auto;
+  background: #E1C071; 
+}
+
+.img-martys {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-martys h3 {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.content-martys {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+
+}
+
+
+
+footer {
+  font-family: 'Lato', sans-serif;
+  text-align: center;  
+  margin: 200px 0px 60px 0px;
+  color: black;
+  font-size: 15px;
+}
+
+ footer .top-page {
+  padding: 0px 100px 0px 0px;
+  text-align: end;
+  font-size: 18px;
+  font-weight: lighter;
+} 
  
 
   
