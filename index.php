@@ -131,7 +131,7 @@
         </nav>
 
         <div class="hero">
-            <h1>Hi, I'm Bobbi.<br></h1> 
+            <h1>Hello, I'm Bobbi.<br></h1> 
             <p>Full-Stack Web Developer skilled in client<br> 
                 and server side programming. I'm passionate<br> 
                 about every detail, from concept and ideation<br>
