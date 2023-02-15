@@ -26,7 +26,7 @@
         <a href="http://www.bobbiteel.slccwebdev.com/PHP/index.php#work">Work</a>
         <a href="about.php">About</a>
         <div class="top"><a href="index.php">B.</a></div>
-        <a href="BKTeel Resume.pdf" target="_blank">Resume</a>
+        <a href="Resume.pdf" target="_blank">Resume</a>
         <a href="http://www.bobbiteel.slccwebdev.com/PHP/index.php#contact">Contact</a>
     </nav>
 

@@ -126,7 +126,7 @@
             <a href="#work">Work</a>
             <a href="about.php">About</a>
             <div class="top"><a href="#top">B.</a></div>
-            <a href="https://1drv.ms/w/s!Avuk23P6rVIjr0VUQr_cIVscPn7-" target="_blank">Resume</a>
+            <a href="Resume.pdf" target="_blank">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
 
