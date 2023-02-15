@@ -23,9 +23,9 @@
     <div id="Home-Page-Top"></div>
     <nav id="navbar">
         <a href="http://www.bobbiteel.slccwebdev.com/PHP/index.php#work">Work</a>
-        <a href="about.php" target="_blank">About</a>
+        <a href="about.php">About</a>
         <div class="top"><a href="index.php">B.</a></div>
-        <a href="BobbiResume.pdf" target="_blank">Resume</a>
+        <a href="BKTeel Resume.pdf" target="_blank">Resume</a>
         <a href="http://www.bobbiteel.slccwebdev.com/PHP/index.php#contact">Contact</a>
     </nav>
 
