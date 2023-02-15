@@ -125,9 +125,9 @@
         <div id="Home-Page-Top"></div>
         <nav id="navbar">
             <a href="#work">Work</a>
-            <a href="about.php" target="_blank">About</a>
+            <a href="about.php">About</a>
             <div class="top"><a href="#top">B.</a></div>
-            <a href="BobbiResume.pdf" target="_blank">Resume</a>
+            <a href="BKTeel Resume.pdf" target="_blank">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
 
@@ -152,8 +152,8 @@
                             <h5 class="font5">Wordpress</h5>
                             <h5 class="font5">Frontend</h5>
                         </div>
-                        <a href="martys.php" target="_blank">
-                            <div class="button-1">View Case Study</div>
+                        <a href="martys.php">
+                            <div class="button-1">Learn More</div>
                         </a>
                     </div>
                     <div class="martys"><a href="https://martysdarkmatter.com" target="_blank"><img alt="author website" src="/PHP/assets/martys.png">
@@ -195,7 +195,7 @@
 
         <footer>
             <div class="top-page"><a href="#Home-Page-Top">Back To Top↑</a></div>
-            <p>Copyright &copy; 2022 bkteel.com</p>  
+            <p>Copyright &copy; 2022 bkteel</p>  
         </footer>
         
     </div>
