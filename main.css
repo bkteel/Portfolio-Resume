@@ -3,7 +3,7 @@
 body {
   margin:0px;
   padding:0px;
-  background:#f5f8f7;
+  background:#ffffff;
 }
 
 #navbar {
@@ -12,16 +12,19 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  background:#f5f8f7;
-  font-family: 'Lato', sans-serif;
-  font-size: 19px;
-  /* font-weight: lighter; */
-  padding-top: 5px;
+  background:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding-top: 30px;
   padding-bottom: 5px;
+  padding-right: 50px;
   transition: ls;
 }
 
+.work {
+  margin-left: auto;
+  display: flex;
+}
 #navbar a:link {
   text-decoration: none;
   color: black;
@@ -54,24 +57,24 @@ h1 {
   letter-spacing: 0.05em;
   margin: 216px 100px 0px 384px;
   padding: 150px 0px 0px 0px;
-  font-family: 'Calistoga', cursive;
-  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
   color:black;
   float: left;
+  font-weight: 400;
   }
 
 .profile {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 80px 0px 0px 0px;
+  padding: 280px 300px 0px 0px;
  }
 
 .hero p {
-  margin: 20px 200px 0px 384px;  
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  margin: 20px 100px 0px 384px;  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
   color: black;
   float: left;
   line-height: 45px;
@@ -85,59 +88,60 @@ h1 {
   margin-right: 20px;
 }
 
-.container-1 {
-  width: 80%;
-  margin: 50px auto;
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* portfolio container */
+.portfolio-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
 }
 
-#work {
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
   display: inline-block;
-  vertical-align: top;
-  padding-top: 140px;
+  transition: background-color 0.6s ease;
 }
 
-.container-1-flex {
-  display: flex;
-  flex-direction: row;
-  padding-top: 100px; 
+.active {
+  background-color: #717171;
 }
 
-.container-1-text {
-  padding-top: 20px;
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5.5s;
 }
 
-.container-1 .container-1-flex .container-1-text p {
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  margin-right: 20px;
-  padding-top: 30px;
-  letter-spacing: 0.05em;
-  line-height: 1.5;
-  color: #5e5e5e;
-
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
 }
 
-.container-flex-tab {
-  display: flex;
-  padding: 20px 20px 20px 0px;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 
 .font5 {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 5px 15px;
   margin: 0px 10px 0px 0px;
-  font-weight: lighter;
+  font-weight: 400;
   background-color: rgb(226, 226, 226);
   border-radius: 20px;
 }
 
-.button-1 {
-  margin-top: 50px;
-  font-weight: 500;
-  font-size: 16px;
-}
+
 .martys {
   width: 670px;
   height: 378px;
@@ -146,98 +150,40 @@ h1 {
 
 h2 {
   letter-spacing: 0.05em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: rgb(58, 58, 58);
   margin: 0px 0px 30px 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3 {
   padding-top: 20px;
   line-height: 0.05em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: 700;
   color: black;
 }
-
-#contact{
-  text-align: center;
-  padding-top: 200px;
-}
-
-form { 
-  max-width:450px; 
-  margin:50px auto; 
-}
-
-.feedback-input {
-  color:black;
-  font-family: 'Lato', sans-serif;
-  font-weight:500;
-  font-size: 16px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid #2f89ab;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-.feedback-input:focus { 
-  border:2px solid #359bc0; 
-}
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Lato', sans-serif;
-  width: 100%;
-  background:#2f89ab;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-}
-[type="submit"]:hover { background:#359bc0; }
-
-#results {
-  background-color: pink;
-}
-
 .banner-martys {
-  height: 580px;
+  height: 825px;
   width: auto;
-  background: #E1C071; 
+  background: #437fce; 
 }
 
 .img-martys {
-  padding-top: 150px;
+  padding-top: 225px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .title-martys h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
-  font-weight: 700;
-  font-size: 38px;
-  margin-top: 150px;
+  font-weight: 400;
+  font-size: 65px;
+  margin-top: 200px;
   margin-left: 300px;
 }
 
@@ -245,9 +191,9 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 300px;
   margin-right: 300px;
@@ -256,10 +202,38 @@ textarea {
 
 }
 
+.before-after {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 65px;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+
+span {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 400;
+  margin-left: 300px;
+  letter-spacing: 0.12em;
+}
+
+.bottom-space {
+  padding: 180px 0px;
+}
 
 
 footer {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;  
   margin: 200px 0px 60px 0px;
   color: black;
@@ -269,25 +243,6 @@ footer {
  footer .top-page {
   padding: 0px 100px 0px 0px;
   text-align: end;
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 20px;
+  font-weight: 400;
 } 
- 
-
-  
-
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
