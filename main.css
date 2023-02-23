@@ -88,48 +88,65 @@ h1 {
   margin-right: 20px;
 }
 
-* {box-sizing: border-box;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
 
-/* portfolio container */
-.portfolio-container {
-  max-width: 1000px;
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
   position: relative;
   margin: auto;
-  padding-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-/* The dots/bullets/indicators */
+.mySlides {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+  width: 900px;
+  height: auto;
+}
+
+.button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  
+}
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  margin: 0 10px;
+  border-radius: 20px;
+  }
+  
+.active, .dot:hover {
+  background-color: #ff7474;
 }
 
-.active {
-  background-color: #717171;
-}
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 5.5s;
-}
 
-@keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
-}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+
+
+
+
+
+
+
+
+
 
 .font5 {
   font-size: 16px;
@@ -141,6 +158,16 @@ img {vertical-align: middle;}
   border-radius: 20px;
 }
 
+h4 {
+  letter-spacing: 0.05em;
+  padding-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  color:black;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
 
 .martys {
   width: 670px;
@@ -168,7 +195,19 @@ h3 {
 .banner-martys {
   height: 825px;
   width: auto;
-  background: #437fce; 
+  background: #6eb4b9; 
+}
+
+.banner-diary {
+  height: 825px;
+  width: auto;
+  background: #6eb4b9; 
+}
+
+.banner-tilde {
+  height: 825px;
+  width: auto;
+  background: #6eb4b9; 
 }
 
 .img-martys {
@@ -201,48 +240,59 @@ h3 {
   letter-spacing: 0.05em;
 
 }
-
 .before-after {
   display: flex;
   justify-content: center;
   padding-top: 75px;
 }
 
+
+.bottom-space {
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+.bottom-space img {
+  width:100%
+  }
+
 h6 {
+  
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 400;
   font-size: 65px;
   margin-top: 200px;
-  margin-left: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 
-span {
+span p {
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 400;
-  margin-left: 300px;
-  letter-spacing: 0.12em;
-}
-
-.bottom-space {
-  padding: 180px 0px;
+  letter-spacing: 1em;
+  display: flex;
+  justify-content:space-between;
+  margin: 0px 694px;
+  padding-bottom: 100px;
 }
 
 
 footer {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;  
-  margin: 200px 0px 60px 0px;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
+  display: flex;
+  padding: 20px 50px 20px 50px ;
 }
 
  footer .top-page {
-  padding: 0px 100px 0px 0px;
-  text-align: end;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
+  margin-left: auto;
+
 } 
