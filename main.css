@@ -53,12 +53,16 @@ a:active {
   color: black;
 }
 
+.hero {
+  display: flex;
+}
+
 h1 {
   letter-spacing: 0.05em;
   margin: 216px 100px 0px 384px;
   padding: 150px 0px 0px 0px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 65px;
+  font-size: 50px;
   color:black;
   float: left;
   font-weight: 400;
@@ -73,17 +77,17 @@ h1 {
 .hero p {
   margin: 20px 100px 0px 384px;  
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
   color: black;
   float: left;
-  line-height: 45px;
+  line-height: 35px;
 }
 
 #navbar .top {
   font-family: 'Montserrat';
   color: black;
-  font-size: 45px;
+  font-size: 35px;
   margin-left: 50px;
   margin-right: 20px;
 }
@@ -103,7 +107,6 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
   margin: auto;
   display: flex;
   justify-content: center;
