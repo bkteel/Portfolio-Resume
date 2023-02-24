@@ -15,7 +15,7 @@ body {
   background:#ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  padding-top: 30px;
+  padding-top: 13px;
   padding-bottom: 5px;
   padding-right: 50px;
   transition: ls;
@@ -57,7 +57,7 @@ a:active {
 
 h1 {
   letter-spacing: 0.05em;
-  padding: 345px 75px 0px 300px;
+  padding: 326px 75px 0px 300px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color:black;
@@ -68,10 +68,10 @@ h1 {
 .profile {
   display: flex;
   flex-direction: row;
-  padding: 220px 0px 0px 0px; }
+  padding: 200px 0px 200px 0px; }
 
 .hero p {
-  margin: 20px 100px 0px 300px;  
+  margin: 5px 100px 0px 300px;  
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -114,6 +114,7 @@ h1 {
   width: 20px;
   border: 2px solid black;
   margin: 0 10px;
+  margin-bottom: 160px;
   border-radius: 20px;
   }
   
@@ -135,7 +136,7 @@ h1 {
 
 h4 {
   letter-spacing: 0.05em;
-  padding-top: 200px;
+  padding-top: 93px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color:black;
@@ -237,7 +238,8 @@ h6 {
   color: black;
   font-weight: 400;
   font-size: 50px;
-  margin-top: 200px;
+  margin-top: 93px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
