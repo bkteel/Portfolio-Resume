@@ -169,19 +169,19 @@ h3 {
   color: black;
 }
 .banner-martys {
-  height: 825px;
+  height: 660px;
   width: auto;
   background: #6eb4b9; 
 }
 
 .banner-diary {
-  height: 825px;
+  height: 660px;
   width: auto;
   background: #6eb4b9; 
 }
 
 .banner-tilde {
-  height: 825px;
+  height: 660px;
   width: auto;
   background: #6eb4b9; 
 }
@@ -193,33 +193,28 @@ h3 {
   justify-content: center;
 }
 
-.title-martys h3 {
+.title-project h3 {
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 400;
-  font-size: 50px;
-  margin-top: 200px;
+  font-size: 48px;
+  margin-top: 140px;
   margin-left: 300px;
 }
 
-.content-martys {
+.content-project {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 50px;
   margin-left: 300px;
   margin-right: 300px;
-  line-height: 35px;
+  line-height: 30px;
   letter-spacing: 0.05em;
 
-}
-.before-after {
-  display: flex;
-  justify-content: center;
-  padding-top: 75px;
 }
 
 
