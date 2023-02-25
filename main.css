@@ -164,14 +164,14 @@ h3 {
   padding-top: 20px;
   line-height: 0.05em;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: black;
 }
 .banner-martys {
   height: 660px;
   width: auto;
-  background: #6eb4b9; 
+  background: #0f606b; 
 }
 
 .banner-diary {
@@ -183,7 +183,7 @@ h3 {
 .banner-tilde {
   height: 660px;
   width: auto;
-  background: #6eb4b9; 
+  background: #ff7474; 
 }
 
 .img-project {
@@ -218,7 +218,7 @@ h3 {
 }
 
 .overview p {
-  padding-right: 20px;
+  padding-right: 150px;
 }
 
 
