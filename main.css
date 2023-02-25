@@ -164,8 +164,8 @@ h3 {
   padding-top: 20px;
   line-height: 0.05em;
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   color: black;
 }
 .banner-martys {
@@ -186,7 +186,7 @@ h3 {
   background: #6eb4b9; 
 }
 
-.img-martys {
+.img-project {
   padding-top: 225px;
   display: flex;
   align-items: center;
@@ -209,12 +209,16 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 300px;
   margin-right: 300px;
   line-height: 30px;
   letter-spacing: 0.05em;
 
+}
+
+.overview p {
+  padding-right: 20px;
 }
 
 
