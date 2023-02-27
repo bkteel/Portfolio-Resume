@@ -2,10 +2,24 @@
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h1, .profile{
+  h1 {
+    width: 100%;
+    padding: 180px 0px 0px 0px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile {
     width: 100%;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hero p {
+    display: none;    
+  }
+}
+
 
 body {
   margin:0px;
