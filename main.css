@@ -250,7 +250,7 @@ h3 {
 }
 
 .bottom-space img {
-  width:100%
+  width:100%;
   }
 
 h6 {
@@ -292,3 +292,7 @@ footer {
   margin-left: auto;
 
 } 
+svg {
+  width: 100%;
+  height: auto;
+}
