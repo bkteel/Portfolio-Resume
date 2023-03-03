@@ -5,8 +5,9 @@
   h1, .hero p {
     text-align: center;
   }
-  .profile {
-    justify-content: center;
+  .profile img {
+    width: 100%;
+    height: auto;
   }
 }
 
