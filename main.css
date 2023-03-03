@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Lato:wght@300;400;700;900&display=swap');
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   h1 {
     width: 100%;
     padding: 180px 0px 0px 0px;
@@ -35,7 +35,7 @@ body {
   display: flex;
   background:#ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2em;
   padding-top: 13px;
   padding-bottom: 5px;
   padding-right: 50px;
@@ -251,6 +251,7 @@ h3 {
 
 .bottom-space img {
   width:100%;
+  height:auto;
   }
 
 h6 {
@@ -292,7 +293,3 @@ footer {
   margin-left: auto;
 
 } 
-svg {
-  width: 100%;
-  height: auto;
-}
