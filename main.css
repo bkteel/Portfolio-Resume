@@ -6,147 +6,17 @@
 
 
 
-/* Styles for screens smaller than 576px (extra small devices) */
-@media (max-width: 576px) {
-  /* Adjust navbar */
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .top {
-    margin-bottom: 10px;
-  }
-  .work, a {
-    display: block;
-    margin-bottom: 10px;
-  }
-  /* Adjust banner */
-  .img-project {
-    margin: 0;
-    width: 100%;
-  }
-  /* Adjust title and content */
-  .title-project {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .overview, .role {
-    margin-bottom: 30px;
-  }
-  /* Adjust contact section */
-  #contact h6 {
-    margin-top: 30px;
-    text-align: center;
-  }
-  #contact p {
-    margin-bottom: 10px;
-  }
-  /* Adjust footer */
-  footer {
-    margin-top: 30px;
-    text-align: center;
-  }
-  .top-page {
-    margin-top: 10px;
+@media only screen and (max-width: 768px) {
+  h1, .hero p, .profile {
+    width: 100%; 
   }
 }
 
-/* Styles for screens between 576px and 768px (small devices) */
-@media (min-width: 576px) and (max-width: 768px) {
-  /* Adjust navbar */
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .top {
-    margin-bottom: 10px;
-  }
-  .work, a {
-    display: block;
-    margin-bottom: 10px;
-  }
-  /* Adjust banner */
-  .img-project {
-    margin: 0;
-    width: 100%;
-  }
-  /* Adjust title and content */
-  .title-project {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .overview, .role {
-    margin-bottom: 30px;
-  }
-  /* Adjust contact section */
-  #contact h6 {
-    margin-top: 30px;
-    text-align: center;
-  }
-  #contact p {
-    margin-bottom: 10px;
-  }
-  /* Adjust footer */
-  footer {
-    margin-top: 30px;
-    text-align: center;
-  }
-  .top-page {
-    margin-top: 10px;
-  }
-}
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  }
 
-/* Styles for screens larger than 768px (medium and up devices) */
-@media (min-width: 768px) {
-  /* Reset navbar */
-  #navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .top {
-    margin-bottom: 0;
-  }
-  .work, a {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  /* Reset banner */
-  .img-project {
-    margin: 0;
-    width: 50%;
-  }
-  /* Reset title and content */
-  .title-project {
-    margin-top: 0;
-    text-align: left;
-  }
-  .overview, .role {
-    margin-bottom: 0;
-  }
-  /* Reset contact section */
-  #contact h6 {
-    margin-top: 0;
-    text-align: right;
-  }
-  #contact p {
-    margin-bottom: 0;
- 
-  }
-}
-
-
-
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {  }
 
 
 
@@ -220,6 +90,7 @@ h1 {
   }
 
 .profile {
+  width: 100%;
   display: flex;
   flex-direction: row;
   padding: 200px 0px 200px 0px; }
@@ -247,6 +118,7 @@ h1 {
   margin: auto;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .mySlides {
@@ -341,6 +213,7 @@ h3 {
 }
 
 .img-project {
+  width: 100%;
   padding-top: 225px;
   display: flex;
   align-items: center;
