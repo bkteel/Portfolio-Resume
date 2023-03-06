@@ -10,6 +10,12 @@
   h1, .hero p, .profile {
     width: 100%; 
   }
+  #navbar .top {
+    margin-left: 10px;
+  }
+  #navbar {
+    display: none;
+  }
 }
 
 
