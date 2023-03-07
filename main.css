@@ -7,17 +7,12 @@
 
 
 @media only screen and (max-width: 768px) {
-  h1, .hero p, .profile {
-    width: 100%; 
+  h1, .hero p, .profile, h4, .slideshow-container, .mySlides, h6, span, .bottom-space, footer p, .top-page {
+    width: auto; 
   }
-  #navbar .top {
-    margin-left: 10px;
-  }
-  #navbar {
-    display: none;
-  }
+  
+  
 }
-
 
 
 
